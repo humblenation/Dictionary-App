@@ -17,7 +17,7 @@ function data(result, word){
         //if api returns the message of can't find word
         infoText.innerHTML = `Can't find the meaning of ${word}. Please, try searching another word.`;
     }else{
-        console.log(result);
+        // console.log(result);
         container.classList.add("active");
         // let rand = Object.keys(result[0].meanings[0].definitions).length
         
