@@ -160,3 +160,8 @@ body{
 .output::-webkit-scrollbar{
     width: 0;
 }
+.token{
+  font-size: 13px;
+  color: #9A9A9A;
+  /* margin: 3px 0 -10px; */
+}
